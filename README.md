@@ -1,2 +1,3 @@
 # FileClassificationReal
-Disregard FileClassification
+
+Filetype Classifier for KBase Files.
