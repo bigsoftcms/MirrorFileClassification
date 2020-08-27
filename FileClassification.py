@@ -199,6 +199,7 @@ def Char_vectorizer2(X_train, y_train, X_test, y_test, filetype, ngram_range, ma
             
     
         char_vectorizer2 = TfidfVectorizer(analyzer = 'char',
+
                 ngram_range = ngram_range, max_features = max_features,
                                 vocabulary = char_vocab)
         char_vectorizer2.fit(X_train)
